@@ -49,7 +49,7 @@ export const DATA = {
       start: "Nov 2024",
       end: "Present",
       description:
-        `Working in FinCrime to build a new platform for Anti Money Laundering (AML).`,
+        `Software Engineer specializing in Financial Crime prevention at Barclays, where I develop anti-money laundering tools to strengthen the bank's compliance framework. I implement CI/CD pipelines to streamline development workflows and craft CloudFormation templates for reliable cloud deployments. My work combines technical expertise with financial security knowledge to protect the institution against evolving threats while maintaining operational efficiency.`,
     },
     {
       company: "Infosy Limited",
