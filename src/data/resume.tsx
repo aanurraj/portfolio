@@ -77,5 +77,23 @@ export const DATA = {
     },
   ],
 
-  projects: []
+  projects: [ {
+    title: "The Daily Highlight",
+    description:
+      "Brings my random kindle highlights daily into my inbox",
+    technologies: [
+      "Go Lang", "DynamoDB", "AWS Lambda"],
+    links: [
+      // {
+      //   type: "Website",
+      //   href: "",
+      //   icon: <Icons.globe className="size-3" />,
+      // },
+      {
+        type: "Source",
+        href: "https://github.com/aanurraj/daily-kindle-email",
+        icon: <Icons.github className="size-3" />,
+      },
+    ],
+  }]
 } as const;
