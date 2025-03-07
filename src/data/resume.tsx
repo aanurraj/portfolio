@@ -1,41 +1,37 @@
 import { Icons } from "@/components/icons";
 
 export const DATA = {
-  name: "Ayush Gupta",
-  initials: "AG",
-  url: "https://github.com/siAysuh",
+  name: "Anubhav Singh",
+  initials: "AS",
+  url: "https://github.com/aanurraj",
   location: "Delhi, India",
-  locationLink: "https://www.google.com/maps/place/Delhi",
+  locationLink: "https://www.google.com/maps/place/Pune",
   description: "Software Engineer",
   summary:
-    "I work as a fullstack developer during the day, learning low-level and systems programming.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/28400861?v=4",
-  languages: ["C", "Go", "Typescript", "JavaScript", "Python", "SQL"],
+    "I’m you would have obviously read my name, a Software Developer with a knack for turning other people’s idea (for now) into code. When I’m not busy making pixels perfect or debugging my life choices (Is an Americano better made with a Moka Pot or a French Press?), you can find me reading system architecture, or plotting world domination (just kidding, or am I?).",
+  avatarUrl: "https://avatars.githubusercontent.com/u/28955148?v=4",
+  languages: ["JavaScript", "Java", "Python", "Go", "C++"],
   technologies: [
-    "Postgres",
+    "Node.js",
     "MongoDB",
-    "Elastic Search",
-    "React",
-    "NextJs",
-    "NodeJs",
-    "ExpressJs",
     "Docker",
-    "Kafka",
     "AWS",
+    "Kubernetes",
+    "MySQL",
   ],
   contact: {
-    email: "siayush.gupta@gmail.com",
+    email: "anubhavraj.08@gmail.com",
     social: {
       GitHub: {
-        url: "https://github.com/siAyush",
+        url: "https://github.com/aanurraj",
         icon: Icons.github,
       },
       LinkedIn: {
-        url: "https://www.linkedin.com/in/siayush/",
+        url: "https://www.linkedin.com/in/anubhavrajsingh/",
         icon: Icons.linkedin,
       },
       X: {
-        url: "https://x.com/siAyushh",
+        url: "https://x.com/aanurraj",
         icon: Icons.x,
       },
     },
@@ -43,111 +39,43 @@ export const DATA = {
 
   work: [
     {
-      company: "Infogain",
-      href: "https://www.infogain.com/",
+      company: "Barclays",
+      href: "https://home.barclays",
       badges: [],
-      location: "Remote",
-      title: "Software Engineer",
+      location: "Pune, India",
+      title: "Software Engineer BA4",
       logoUrl: "/atomic.png",
-      start: "Dec 2022",
+      start: "Nov 2024",
       end: "Present",
       description:
-        "Implemented server-side applications using Node.js, ensuring efficient handling of backend logic. Collaborated closely with the frontend team to seamlessly integrate APIs into the frontend, ensuring smooth functionality and user experience across the application.  Implemented micro frontend architecture, enabling modular development and seamless integration of multiple frontend applications for improved scalability and maintainability.  Increased code coverage from 40% to 82% by writing comprehensive unit and integration tests, ensuring greater reliability and maintainability. Led the integration of Google Tag Manager (GTM) for improved tracking and analytics. Worked with AWS to deploy and scale applications",
+        `Working in FinCrime to build a new platform for Anti Money Laundering (AML).`,
     },
     {
-      company: "NNT",
-      href: "https://www.linkedin.com/company/nggawe-nirman/",
+      company: "Infosy Limited",
+      href: "https://www.infosys.com/",
       badges: [],
-      location: "Remote",
-      title: "Software Engineer Intern",
+      location: "Pune, India",
+      title: "Specialist Programmer L2",
       logoUrl: "/atomic.png",
-      start: "June 2021",
-      end: "Nov 2021",
+      start: "Nov 2020",
+      end: "Dec 2024",
       description:
-        "Created and integrated REST APIs with frontend components using Node.js, facilitating seamless data retrieval and display. Contributed to the codebase by converting class-based components to functional components, improving performance, maintainability. Conducted testing and debugging, achieving 95% functionality and 30% faster issue identification with Jest.",
+        `Engineered more than 12 enterprise level application for one of the top 3 company by market cap. Notable backend includes a critical budget allocation for new jobs created.
+        Technologies Used: NodeJs, Express.js, Java Springboot, Microservices, Python, Docker, Kubernetes, AWS, SAP HANA XS Classic and Advanced.`,
+    },
+    {
+      company: "OpenMined",
+      href: "https://openmined.org",
+      badges: ["Open Source", "Remote"],
+      location: "Remote",
+      title: "Crypto SMPC Dev, OpenSource",
+      logoUrl: "/atomic.png",
+      start: "Jan 2020",
+      end: "Nov 2020",
+      description:
+      "Worked on OpenMined's Privacy Preserving Machine Learning (PPML) library PySyft and supporting SyMPC library. Notable cotribution includes benchmarking different SMPC function and decoupling SyMPC from PySyft.",
     },
   ],
 
-  projects: [
-    {
-      title: "ingestor",
-      description:
-        "Efficiently manage and query vast log data volumes with a scalable Log Ingestor and Query Interface, featuring real-time ingestion, advanced filtering, and a user-friendly interface.",
-      technologies: [
-        "Go",
-        "Kafka",
-        "Elastic Search",
-        "Docker",
-        "Kibana",
-        "Typescript",
-        "NextJS",
-        "Shadcn UI",
-      ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/siAyush/ingestor",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "ScratchML",
-      description:
-        "Implementations of the Machine Learning models and algorithms from scratch using NumPy only.",
-      technologies: ["Python", "NumPy"],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/siAyush/ScratchML",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "Natours",
-      description:
-        "An tour booking web app with user authentication and authorization.",
-      technologies: ["NodeJS", "ExpressJs", "MongoDB"],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/siAyush/Natours",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-    {
-      title: "Model-Zoo",
-      description: "Implementation of various deep learning models in Pytorch",
-      technologies: ["Pytorch", "Python"],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/siAyush/Model-Zoo",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-    },
-  ],
+  projects: []
 } as const;
