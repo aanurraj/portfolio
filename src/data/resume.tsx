@@ -14,6 +14,7 @@ export const DATA = {
   technologies: [
     "Node.js",
     "MongoDB",
+    "Spring Boot",
     "Docker",
     "AWS",
     "Kubernetes",
