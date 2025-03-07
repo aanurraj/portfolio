@@ -8,7 +8,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/Pune",
   description: "Software Engineer",
   summary:
-    "I’m you would have obviously read my name, a Software Developer with a knack for turning other people’s idea (for now) into code. When I’m not busy making pixels perfect or debugging my life choices (Is an Americano better made with a Moka Pot or a French Press?), you can find me reading system architecture, or plotting world domination (just kidding, or am I?).",
+    "I'm a Software Developer specializing in turning concepts into functional code with pixel-perfect precision. When not debugging or refactoring, you'll find me debating the merits of Moka Pot vs. French Press vs. Pour Over for the perfect Americano, diving into system architecture, or planning world domination (Bazinga!). I combine Richard Hendricks-level technical solutions with creative problem-solving, constantly improving my craft while avoiding those Hooli-sized mistakes.",
   avatarUrl: "https://avatars.githubusercontent.com/u/28955148?v=4",
   languages: ["JavaScript", "Java", "Python", "Go", "C++"],
   technologies: [
